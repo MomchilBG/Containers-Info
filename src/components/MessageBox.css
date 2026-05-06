@@ -1,0 +1,24 @@
+.message-box {
+  text-align: center;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  margin: auto;
+  max-width: 380px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.info {
+  color: var(--text);
+}
+
+@media (max-width: 768px) {
+  .message-box {
+    max-width: 280px;
+  }
+}

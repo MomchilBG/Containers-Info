@@ -47,45 +47,11 @@ button:hover {
   background: var(--text-h);
 }
 
-.table-container {
-  overflow-x: auto;
-  max-height: 400px;
-  overflow-y: auto;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  background: var(--bg);
-}
-
-.results-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: var(--bg);
-}
-
-.results-table th,
-.results-table td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid var(--border);
-}
-
-.results-table th {
-  background: var(--accent-bg);
-  color: white;
-  font-weight: bold;
-  position: sticky;
-  top: 0;
-}
-
 #footer {
   margin-top: auto;
   padding: 20px;
   color: var(--text);
   font-size: 14px;
-}
-
-.results-table tbody tr:hover {
-  background: var(--accent-bg);
 }
 
 @media (max-width: 768px) {
@@ -95,11 +61,5 @@ button:hover {
 
   #search-bar {
     width: 200px;
-  }
-
-  .results-table th,
-  .results-table td {
-    padding: 8px;
-    font-size: 14px;
   }
 }
